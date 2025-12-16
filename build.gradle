@@ -8,8 +8,8 @@
  */
 
 plugins {
-    id `java`
-    id `edu.sc.seis.launch4j`
+    id 'java'
+    id 'edu.sc.seis.launch4j'
 }
 
 // In this section you declare where to find the dependencies of your project
