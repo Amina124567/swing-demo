@@ -21,7 +21,7 @@ repositories {
 
 // Configure launch4j plugin
 launch4j {  // добавили для launch4j
-    mainClassName = 'com.example.SwingDemo'  // добавили для launch4j
+    mainClassName = 'SwingDemo'  // добавили для launch4j
     // Не добавляйте другие опции, как сказано в задании
 }
 
