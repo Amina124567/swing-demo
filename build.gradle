@@ -7,10 +7,10 @@
  * user guide available at http://gradle.org/docs/2.2.1/userguide/tutorial_java_projects.html
  */
 
-// Apply the java plugin to add support for Java
-apply plugin: 'java'
-// Apply launch4j plugin for creating .exe files
-apply plugin: 'edu.sc.seis.launch4j'  // добавили для launch4j
+plugins {
+    id `java`
+    id `edu.sc.seis.launch4j`
+}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
